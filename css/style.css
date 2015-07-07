@@ -1,0 +1,29 @@
+.site{width: 90%; max-width: 1200px; margin: auto;}
+/*header*/
+.main-header{overflow: hidden;}
+
+.logo{max-width: 100%; background-color: red;}
+
+.logo-prefix{font-size: 2em; float: left; color: white; margin-right: 3%; margin-left: 2%;}
+
+.logo-suffix{font-size: 1em; color: white;}
+
+.contact{margin-top: 2%;margin-bottom: 2%;float: right; font-size: 0.75em; color: white; margin-right: 2%;}
+/*navigation*/
+.main-nav{background-color: crimson; max-width: 100%;}
+
+.nav-home{display: inline-block; margin-left: 3%;margin-top:1%;margin-bottom: 1%;font-size: 1.5em;color: white;}
+
+.nav-services{display: inline-block;margin-left: 3%;margin-top:1%;margin-bottom: 1%;font-size: 1.5em;color: white;}
+
+.nav-contact{display: inline-block;margin-left: 3%;margin-top:1%;margin-bottom: 1%;font-size: 1.5em;color: white;}
+
+.nav-our-story{display: inline-block;margin-left: 3%;margin-top:1%;margin-bottom: 1%;font-size: 1.5em; color: white;}
+/*Welcome sign*/
+.welcome{max-width: 100%; height: 275px; background-color: aquamarine;}
+
+.slogan{max-width: 100%; margin-left: 6%; float: left; font-size: 3em; color: dimgrey;}
+/*Services Section*/
+.services-sector{max-width:100%; background-color: lawngreen; }
+.services-title{margin-top: 2%;font-size: 3em;color: aliceblue; margin-left: 10%;}
+.car-logos{max-width: 100%; background-color: white; margin-top: 1%; margin-bottom: 2%;margin-left: 5%; margin-right: 5%;}
