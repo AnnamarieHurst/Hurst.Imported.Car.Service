@@ -1,8 +1,8 @@
-.site{width: 90%; max-width: 1200px; margin: auto;}
+.site{width: 90%; max-width: 1250px; margin: auto;}
 /*header*/
 .main-header{overflow: hidden;}
 
-.logo{max-width: 100%; background-color: red;}
+.logo{max-width: 100%; background-color: blue;}
 
 .logo-prefix{font-size: 2em; float: left; color: white; margin-right: 3%; margin-left: 2%;}
 
@@ -10,7 +10,7 @@
 
 .contact{margin-top: 2%;margin-bottom: 2%;float: right; font-size: 0.75em; color: white; margin-right: 2%;}
 /*navigation*/
-.main-nav{background-color: crimson; max-width: 100%;}
+.main-nav{background-color: aliceblue; max-width: 100%;text-align: left;}
 
 .nav-home{display: inline-block; margin-left: 3%;margin-top:1%;margin-bottom: 1%;font-size: 1.5em;color: white;}
 
@@ -24,6 +24,14 @@
 
 .slogan{max-width: 100%; margin-left: 6%; float: left; font-size: 3em; color: dimgrey;}
 /*Services Section*/
-.services-sector{max-width:100%; background-color: lawngreen; }
-.services-title{margin-top: 2%;font-size: 3em;color: aliceblue; margin-left: 10%;}
-.car-logos{max-width: 100%;margin-top: 1%; margin-bottom: 2%;margin-left: 5%; margin-right: 5%;}
+.services-sector{max-width:100%; background-color: deepskyblue; }
+.services-title{margin-top: 1%;font-size: 3em;color: aliceblue; margin-left: 4%;}
+.car-logos{max-width: 100%; margin-bottom: 1%;margin-left: 1%; margin-right: 1%;}
+.titles-one {background: slategrey;font-size: 15px;}
+.titles-two{background: slategrey; font-size: 15px;}
+.service:nth-child(even){background: darkslateblue;}
+.sg-service{display: block;}
+.title-contact{margin-top: 1%; font-size: 3em; color: aliceblue; margin-left: 4%;}
+.contact-sector{max-width: 100%; background-color: gold; font-weight: bold;}
+.content{font-size: 1.5em; color:darkblue;}
+.contact-content{text-align: center;}

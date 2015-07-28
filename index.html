@@ -1,51 +1,147 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Hurst Imported Car Service</title>
-    <link rel='stylesheet' href='css/style.css'/>
-</head>
-<body>
-    <div class="site">
-        <header class="main-header">
-            <div class="contact">
-                <span>13208-D.E.</span>
-                <br><span>40 Highway</span>
-                <br><span>Independence, MO</span>
-                <br><span>(816)-373-3100</span>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Hurst Imported Car servicevice1vice</title>
+        <link rel='stylesheet' href='css/style.css'/>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    </head>
+    <body>
+        < class="site">
+            <header class="main-header">
+                <!--right side of site header, the  contact information-->
+                <div class="contact">
+                    <span>13208-D.E.</span>
+                    <br><span>40 Highway</span>
+                    <br><span>Independence, MO</span>
+                    <br><span>(816)-373-3100</span>
+                </div>
+                <!--left side of header, the company logo-->
+                <h1 class="logo">
+                    <span class="logo-prefix">Hurst</span>
+                    <span class="logo-suffix">Imported<br>Car Services</span>
+                </h1>
+                <!--navigation bar for the site-->
+                <nav class="main-nav">
+                    <ul>
+                        <li class="nav-home">
+                            <a class="btn btn-default" href="#home" >Home</a>
+                        </li>
+                        <li class="nav-services">
+                            <a class="btn btn-default" href="#services" >Services</a>
+                        </li>
+                        <li class="nav-contact">
+                            <a class="btn btn-default" href="#contact" >Contact Us</a>
+                        </li>
+                        <li class="nav-our-story">
+                            <a class="btn btn-default" href="#our-story" >Our Story</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!--first section(The Welcome page)-->
+            <div class="welcome" id="home">
+                <h2 class="slogan">
+                    Honest Excellence <br> Providing KC with the<br> finest for over 50 years.
+                </h2>
             </div>
-            <h1 class="logo">
-                <span class="logo-prefix">Hurst</span>
-                <span class="logo-suffix">Imported<br>Car Service</span>
-            </h1>
-            <nav class="main-nav">
-                <ul>
-                    <li class="nav-home">
-                        <a href class="nav-home-link">Home</a>
-                    </li>
-                    <li class="nav-services">
-                        <a href class="nav-services-link">Services</a>
-                    </li>
-                    <li class="nav-contact">
-                        <a href class="nav-contact-link">Contact Us</a>
-                    </li>
-                    <li class="nav-our-story">
-                        <a href class="nav-our-story-link">Our Story</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <div class="welcome">
-            <h2 class="slogan">
-                Honest Excellence <br> Providing KC with the<br> finest for over 50 years.
-            </h2>
+            <!--second section(The service page)-->
+            <div class="services-sector" id="services">
+                <h3 class="services-title">Services</h3>
+                <div class="car-logos">Car logos go here!!!</div>
+                <!--Beginning of services chart (Bootstrap)-->
+               <div class="container row">
+                   <div class="services-group col-sm-4 col-xs-12">
+                       <h4 class="sg-title">
+                           Scheduled Maintenance
+                       </h4>
+                       <span class="sg-service">Lube, Oil, Filter</span>
+                       <span class="sg-service">Crankcase Flush</span>
+                   </div>
+                   <div class="services-group col-sm-4 col-xs-12">
+                       <h4 class="sg-title">
+                           Inspections
+                       </h4>
+                       <span class="sg-service">Pre-purchase Inspections</span>
+                       <span class="sg-service">Comprehensive Vehicle Inspections</span>
+                       <span class="sg-service">Charging System Diagnostics</span>
+                       <span class="sg-service">Drivability Diagnostic</span>
+                   </div>
+                   <div class="services-group col-sm-4 col-xs-12">
+                       <h4 class="sg-title">
+                           Brake Services
+                       </h4>
+                       <span class="sg-service">Brake Inspection</span>
+                       <span class="sg-service">Brake Fluid Flush</span>
+                       <span class="sg-service">Front Disc Brakes</span>
+                       <span class="sg-service">Rear Disc Brakes</span>
+                   </div>
+                   <div class="services-group col-sm-4">
+                       <h4 class="sg-title">
+                           Wheel Alignment
+                       </h4>
+                       <span class="sg-service">Tire Rotation</span>
+                       <span class="sg-service">Wheel Balancing</span>
+                       <span class="sg-service">4 Wheel Alignment</span>
+                   </div>
+                   <div class="services-group col-sm-4 col-xs-12">
+                       <h4 class="sg-title">
+                           Heating / Cooling Systems
+                       </h4>
+                       <span class="sg-service">Cooling System Inspection</span>
+                       <span class="sg-service">Flush</span>
+                   </div>
+                   <div class="services-group col-sm-4 col-xs-12">
+                       <h4 class="sg-title">
+                           Other Services
+                       </h4>
+                       <span class="sg-service">30,000 Mile Service</span>
+                       <span class="sg-service">60,000 Mile Service</span>
+                       <span class="sg-service">90,000 Mile Service</span>
+                       <span class="sg-service">Replace Timing Belt</span>
+                   </div>
+               </div>
+            </div>
+            <div class="contact-sector" id="contact">
+                <div class="title-contact">Contact</div>
+                <div class="contact-content">
+                    Hurst Imported Car Service, 13208-DE. 40 Highway, Independence, MO 64055
+                    Phone: (816)-373-3100
+                    Hours: 8:00am - 6:00pm Monday - Friday
+                </div>
+
+            </div>
+            <div class="our-story-sector" id="our-story">
+                <div class="content">
+                    In 1961, Roger Hurst purchased his first imported car, a 1960 English Triumph TR-3 sports car. He immediately found it was faster, easier on gas, and much more reliable than the Fords he had been driving. Most of all, it was FUN to drive.
+
+
+                    His first big mistake was taking the car to the local Triumph dealership for a tune up. When Roger picked the car up, his little pride and joy would barely run! The guys at the dealership basically told Roger to "Take a hike…. That was the best they could do; and, NO REFUND!" (Sound familiar?)
+
+
+                    Having studied engineering and physics in high school and college, Roger figured the little 4 cylinder, twin carburetors engine, shouldn't require somebody with a Master's degree in Voo-doo to make it run at least as well as it used to.
+
+
+                    With the help of a thick service manual from England, Roger had the Triumph screaming in no time. Perhaps his high school and college years as a professional musician gave him the trained ear for setting the twin carbs and timing on these high-strung cars.
+
+
+                    With new-found performance, Roger entered competition in the Sports Car Club of America's Autocross and Rally driving events….. Garnering 22 straight trophies in his first 22 competitions and winning the coveted SCCA "Rookie of the Year" Award.
+
+
+                    He immediately gathered a following of other local sports car owners who wanted their cars to run as well as Roger's little Triumph. Realizing the real performance potential hidden in their cars they began to bring their friends for a wave of Roger's "magic wand". The waiting lines became so long that Roger began to charge a reasonable amount "just to slow them down"….. But they just kept coming. So, in 1962, Roger left his job at Mobil Oil Company and opened Hurst Imported Car Service. The rest is history.
+
+
+                    As an interesting side note….. Roger's parents were rather upset that he had decided to go into business for himself…. Saying "There's no security in owning your own business". 50 years later, Hurst Imported Car Service is still going strong and, yes, Mobil Oil Company is long gone from Kansas City!
+                </div>
+
+
+            </div>
         </div>
-        <div class="services-sector">
-            <h3 class="services-title">Services</h3>
-            <div class="car-logos">Car logos go here!!!</div>
-        </div>
-    </div>
-    <script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/main.js"></script>
-</body>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </body>
 </html>
