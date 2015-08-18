@@ -1,37 +1,143 @@
-.site{width: 90%; max-width: 1250px; margin: auto;}
+.site{
+    width: 90%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
 /*header*/
-.main-header{overflow: hidden;}
+.main-header{
+    overflow: hidden;
+    background-color: blue;
+}
+.logo{
+    max-width: 100%;
+    display: inline-block;
+    width: 50%;
+}
+.logo-prefix{
+    font-size: 2em;
+    color: white;
+    margin-right: 3%;
+    margin-left: 2%;
+    float: left;
+}
+.logo-suffix{
+    font-size: 1em;
+    color: white;
+    display: block;
 
-.logo{max-width: 100%; background-color: blue;}
-
-.logo-prefix{font-size: 2em; float: left; color: white; margin-right: 3%; margin-left: 2%;}
-
-.logo-suffix{font-size: 1em; color: white;}
-
-.contact{margin-top: 2%;margin-bottom: 2%;float: right; font-size: 0.75em; color: white; margin-right: 2%;}
+}
+.contact{
+    float: right;
+    font-size: 0.75em;
+    color: white;
+    margin-right: 2%;
+    display: block;
+    margin-top: 20px;
+}
 /*navigation*/
-.main-nav{background-color: aliceblue; max-width: 100%;text-align: left;}
+.main-nav{
+    margin-top: -8px;
+    margin-left: 25%;
+}
+ul.nav{
+    list-style-type: none;
+    position: fixed;
+    right: 0;
+}
 
-.nav-home{display: inline-block; margin-left: 3%;margin-top:1%;margin-bottom: 1%;font-size: 1.5em;color: white;}
-
-.nav-services{display: inline-block;margin-left: 3%;margin-top:1%;margin-bottom: 1%;font-size: 1.5em;color: white;}
-
-.nav-contact{display: inline-block;margin-left: 3%;margin-top:1%;margin-bottom: 1%;font-size: 1.5em;color: white;}
-
-.nav-our-story{display: inline-block;margin-left: 3%;margin-top:1%;margin-bottom: 1%;font-size: 1.5em; color: white;}
+li.nav{
+    float: left;
+    padding-left: 30px;
+}
 /*Welcome sign*/
-.welcome{max-width: 100%; height: 275px; background-color: aquamarine;}
-
-.slogan{max-width: 100%; margin-left: 6%; float: left; font-size: 3em; color: dimgrey;}
+/*.welcome{
+    max-width: 100%;
+    height: 275px;
+    background: url(../images/photo2orangeBlue.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}*/
+.home{
+}
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.images{
+    width: 100%;
+}
+.slogan {
+    max-width: 100%;
+    margin-left: 6%;
+    float: left;
+    font-size: 3em;
+    color: dimgrey;
+}
 /*Services Section*/
-.services-sector{max-width:100%; background-color: deepskyblue; }
-.services-title{margin-top: 1%;font-size: 3em;color: aliceblue; margin-left: 4%;}
-.car-logos{max-width: 100%; margin-bottom: 1%;margin-left: 1%; margin-right: 1%;}
-.titles-one {background: slategrey;font-size: 15px;}
-.titles-two{background: slategrey; font-size: 15px;}
-.service:nth-child(even){background: darkslateblue;}
-.sg-service{display: block;}
-.title-contact{margin-top: 1%; font-size: 3em; color: aliceblue; margin-left: 4%;}
-.contact-sector{max-width: 100%; background-color: gold; font-weight: bold;}
-.content{font-size: 1.5em; color:darkblue;}
-.contact-content{text-align: center;}
+.services-sector{
+    max-width:100%;
+    background-color: aquamarine;
+    margin-top: -12px;
+    background-size: cover;
+}
+.services-title{
+    margin-top: 1%;
+    font-size: 3em;
+    color: slategrey;
+    margin-left: 4%;
+}
+.car-logos{
+    max-width: 100%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.titles-one {
+    background: slategrey;
+    font-size: 15px;
+}
+.titles-two{
+    background: slategrey;
+    font-size: 15px;
+}
+.service:nth-child(even) {
+    background: darkslateblue;
+}
+.sg-service{
+    display: block;
+}
+.title-contact{
+    margin-top: 1%;
+    font-size: 3em;
+    color: slategrey;
+    margin-left: 4%;
+}
+.contact-sector {
+    max-width: 100%;
+    background-color: gold;
+    font-weight: bold;
+    margin-top: -12px;
+}
+.story-content{
+    font-size: 1.25em;
+    padding: 15px 20px;
+    color:darkblue;
+    text-align: center;
+}
+.contact-content{
+    text-align: center;
+}
+.title-story{
+    margin-top: 1%;
+    font-size: 3em;
+    color: slategrey;
+    margin-left: 4%;
+    font-weight: bold;
+}
+.our-story-sector{
+    background-color: aqua;
+    margin-top: -12px;
+}
