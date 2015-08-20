@@ -12,7 +12,7 @@
     <body>
         <div class="site">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row fluid">
                     <header class="main-header">
                         <!--left side of header, the company logo-->
                         <h1 class="logo">
@@ -21,32 +21,30 @@
                         </h1>
                         <!--right side of site header, the  contact information-->
                         <div class="contact">
-                            <span>13208-D.E.</span>
-                            <br><span>40 Highway</span>
-                            <br><span>Independence, MO</span>
-                            <br><span>(816)-373-3100</span>
+                            13208-D.E. 40 Highway  Independence, MO  (816)-373-3100
+                        </div>
+                        <div class="row fluid">
+                            <div class="main-nav">
+                                <ul>
+                                    <li class="nav">
+                                        <a class="btn" href="#home" >Home</a>
+                                    </li>
+                                    <li class="nav">
+                                        <a class="btn" href="#services" >Services</a>
+                                    </li>
+                                    <li class="nav">
+                                        <a class="btn" href="#contact" >Contact Us</a>
+                                    </li>
+                                    <li class="nav">
+                                        <a class="btn" href="#our-story" >Our Story</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </header>
                 </div>
-                <div class="row">
-                    <div class="main-nav">
-                        <ul>
-                            <li class="nav">
-                                <a class="btn" href="#home" >Home</a>
-                            </li>
-                            <li class="nav">
-                                <a class="btn" href="#services" >Services</a>
-                            </li>
-                            <li class="nav">
-                                <a class="btn" href="#contact" >Contact Us</a>
-                            </li>
-                            <li class="nav">
-                                <a class="btn" href="#our-story" >Our Story</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
+
+                <div class="row fluid">
                     <div class="home">
                         <div id="home" class="carousel slide" data-ride="carousel">
                             <!-- Carousel indicators -->
@@ -73,16 +71,16 @@
 
                             </div>
                             <!-- Carousel controls -->
-                            <a class="carousel-control left" href="#home" data-slide="prev">
+                            <!--<a class="carousel-control left" href="#home" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left"></span>
                             </a>
                             <a class="carousel-control right" href="#home" data-slide="next">
                                 <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
+                            </a>-->
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row fluid">
                     <!--second section(The service page)-->
                     <div class="services-sector" id="services">
                         <h3 class="services-title">Services</h3>
@@ -93,60 +91,63 @@
                             <img class="car-logos" src="images/serviceAcura_files/HyundaiLogo1.jpg">
                         </div>-->
                         <!--Beginning of services chart (Bootstrap)-->
-                       <div class="container row">
+                       <div class="container row fluid">
                            <div class="services-group col-sm-4 col-xs-12">
                                <h4 class="sg-title">
                                    Scheduled Maintenance
                                </h4>
-                               <span class="sg-service">Lube, Oil, Filter</span>
-                               <span class="sg-service">Crankcase Flush</span>
+                               <span class="sg-service1">Lube, Oil, Filter</span>
+                               <span class="sg-service2">Crankcase Flush</span>
                            </div>
                            <div class="services-group col-sm-4 col-xs-12">
                                <h4 class="sg-title">
                                    Inspections
                                </h4>
-                               <span class="sg-service">Pre-purchase Inspections</span>
-                               <span class="sg-service">Comprehensive Vehicle Inspections</span>
-                               <span class="sg-service">Charging System Diagnostics</span>
-                               <span class="sg-service">Drivability Diagnostic</span>
+                               <span class="sg-service1">Pre-purchase Inspections</span>
+                               <span class="sg-service2">Comprehensive Vehicle Inspections</span>
+                               <span class="sg-service1">Charging System Diagnostics</span>
+                               <span class="sg-service2">Drivability Diagnostic</span>
                            </div>
                            <div class="services-group col-sm-4 col-xs-12">
                                <h4 class="sg-title">
                                    Brake Services
                                </h4>
-                               <span class="sg-service">Brake Inspection</span>
-                               <span class="sg-service">Brake Fluid Flush</span>
-                               <span class="sg-service">Front Disc Brakes</span>
-                               <span class="sg-service">Rear Disc Brakes</span>
+                               <span class="sg-service1">Brake Inspection</span>
+                               <span class="sg-service2">Brake Fluid Flush</span>
+                               <span class="sg-service1">Front Disc Brakes</span>
+                               <span class="sg-service2">Rear Disc Brakes</span>
                            </div>
                            <div class="services-group col-sm-4">
                                <h4 class="sg-title">
                                    Wheel Alignment
                                </h4>
-                               <span class="sg-service">Tire Rotation</span>
-                               <span class="sg-service">Wheel Balancing</span>
-                               <span class="sg-service">4 Wheel Alignment</span>
+                               <span class="sg-service1">Tire Rotation</span>
+                               <span class="sg-service2">Wheel Balancing</span>
+                               <span class="sg-service1">4 Wheel Alignment</span>
+                               <br>
+                               <br>
+                               <br>
                            </div>
                            <div class="services-group col-sm-4 col-xs-12">
                                <h4 class="sg-title">
                                    Heating / Cooling Systems
                                </h4>
-                               <span class="sg-service">Cooling System Inspection</span>
-                               <span class="sg-service">Flush</span>
+                               <span class="sg-service1">Cooling System Inspection</span>
+                               <span class="sg-service2">Flush</span>
                            </div>
                            <div class="services-group col-sm-4 col-xs-12">
                                <h4 class="sg-title">
                                    Other Services
                                </h4>
-                               <span class="sg-service">30,000 Mile Service</span>
-                               <span class="sg-service">60,000 Mile Service</span>
-                               <span class="sg-service">90,000 Mile Service</span>
-                               <span class="sg-service">Replace Timing Belt</span>
+                               <span class="sg-service1">30,000 Mile Service</span>
+                               <span class="sg-service2">60,000 Mile Service</span>
+                               <span class="sg-service1">90,000 Mile Service</span>
+                               <span class="sg-service2">Replace Timing Belt</span>
                            </div>
                        </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row fluid">
                     <div class="contact-sector" id="contact">
                         <div class="title-contact">Contact</div>
                         <div class="contact-content">
@@ -158,27 +159,27 @@
 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row fluid">
 
                     <div class="our-story-sector" id="our-story">
                         <div class="title-story">Our Story</div>
                         <div class="story-content">
                             In 1961, Roger Hurst purchased his first imported car, a 1960 English Triumph TR-3 sports car.
                             He immediately found it was faster, easier on gas, and much more reliable than the Fords he had been driving.
-                            Most of all, it was FUN to drive.His first big mistake was taking the car to the local Triumph dealership for
+                            Most of all, it was fun to drive.His first big mistake was taking the car to the local Triumph dealership for
                             a tune up. When Roger picked the car up, his little pride and joy would barely run! The guys at the dealership
-                            basically told Roger to "Take a hike…. That was the best they could do; and, NO REFUND!" (Sound familiar?)
+                            basically told Roger to "Take a hike…. That was the best they could do; and, NO REFUND!", sound familiar?
                             Having studied engineering and physics in high school and college, Roger figured the little 4 cylinder, twin
-                            carburetors engine, shouldn't require somebody with a Master's degree in Voo-doo to make it run at least as well as it used to.
+                            carburetors engine shouldn't require somebody with a Master's degree in Voo-doo to make it run, at least as well as it used to.
                             With the help of a thick service manual from England, Roger had the Triumph screaming in no time. Perhaps his high school and
-                            college years as a professional musician gave him the trained ear for setting the twin carbs and timing on these high-strung cars.
-                            With new-found performance, Roger entered competition in the Sports Car Club of America's Autocross and Rally driving events…..
-                            Garnering 22 straight trophies in his first 22 competitions and winning the coveted SCCA "Rookie of the Year" Award.He immediately
+                            college years as a professional musician, gave him the trained ear for setting the twin carbs and timing on these high-strung cars.
+                            With new-found performance, Roger entered competition in the Sports Car Club of America's Autocross and Rally driving events. He garnered
+                            22 straight trophies in his first 22 competitions and won the coveted SCCA "Rookie of the Year" Award.He immediately
                             gathered a following of other local sports car owners who wanted their cars to run as well as Roger's little Triumph. Realizing the
-                            real performance potential hidden in their cars they began to bring their friends for a wave of Roger's "magic wand". The waiting
-                            lines became so long that Roger began to charge a reasonable amount "just to slow them down"….. But they just kept coming. So, in
-                            1962, Roger left his job at Mobil Oil Company and opened Hurst Imported Car Service. The rest is history.As an interesting side note…..
-                            Roger's parents were rather upset that he had decided to go into business for himself…. Saying "There's no security in owning your own
+                            real performance potential hidden in their cars, they began to bring their friends for a wave of Roger's "magic wand". The waiting
+                            lines became so long that Roger began to charge a reasonable amount "just to slow them down", but they just kept coming. So, in
+                            1962, Roger left his job at Mobil Oil Company and opened Hurst Imported Car Service. The rest is history. As an interesting side note,
+                            Roger's parents were rather upset that he had decided to go into business for himself. They argued,"There's no security in owning your own
                             business". 50 years later, Hurst Imported Car Service is still going strong and, yes, Mobil Oil Company is long gone from Kansas City!
                         </div>
                     </div>

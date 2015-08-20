@@ -1,12 +1,15 @@
 .site{
-    width: 90%;
-    max-width: 1250px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    font-weight: bolder;
 }
 /*header*/
 .main-header{
     overflow: hidden;
-    background-color: blue;
+    background-color: transparent;
+    max-width: 1200px;
+    margin: auto;
 }
 .logo{
     max-width: 100%;
@@ -15,7 +18,7 @@
 }
 .logo-prefix{
     font-size: 2em;
-    color: white;
+    color: red;
     margin-right: 3%;
     margin-left: 2%;
     float: left;
@@ -34,20 +37,38 @@
     display: block;
     margin-top: 20px;
 }
+.home{
+    width: 100%;
+    margin: 0 auto;
+}
 /*navigation*/
 .main-nav{
-    margin-top: -8px;
-    margin-left: 25%;
+    margin-top: -53px;
+    margin-left: 62%;
+
 }
 ul.nav{
     list-style-type: none;
     position: fixed;
-    right: 0;
+
 }
 
 li.nav{
     float: left;
-    padding-left: 30px;
+    margin: 1%;
+
+}
+.btn {
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.btn.active{
+
+}
+.btn:hover{
+    color: white;
+    border-bottom: 2px solid red;
 }
 /*Welcome sign*/
 /*.welcome{
@@ -57,11 +78,8 @@ li.nav{
     background-size: cover;
     position: relative;
 }*/
-.home{
-}
 .carousel{
     background: #2f4357;
-    margin-top: 20px;
 }
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
@@ -77,17 +95,28 @@ li.nav{
     color: dimgrey;
 }
 /*Services Section*/
+.row{
+    margin: 0 auto;
+}
 .services-sector{
-    max-width:100%;
-    background-color: aquamarine;
-    margin-top: -12px;
+    background-color: darkslategray;
+    padding-top: -20px;
     background-size: cover;
+    max-width: 1200px;
+    margin: auto;
+}
+.services-group{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
 }
 .services-title{
-    margin-top: 1%;
+    text-align: center;
+    padding-top: 8px;
     font-size: 3em;
-    color: slategrey;
-    margin-left: 4%;
+    color: red;
+    max-width: 1200px;
+    margin: auto;
 }
 .car-logos{
     max-width: 100%;
@@ -106,38 +135,57 @@ li.nav{
 .service:nth-child(even) {
     background: darkslateblue;
 }
-.sg-service{
+.sg-service1{
     display: block;
+    background: gray;
+    color: white;
+    text-align: left;
+}
+.sg-service2{
+    display: block;
+    background: darkslategray;
+    color: white;
+    text-align: left;
+}
+.sg-title{
+    color: white;
+    padding:2px;
+    text-align: center;
+    background-color: red;
 }
 .title-contact{
-    margin-top: 1%;
     font-size: 3em;
-    color: slategrey;
-    margin-left: 4%;
+    color: red;
+    text-align: center;
 }
 .contact-sector {
-    max-width: 100%;
-    background-color: gold;
+    background-color: slategray;
     font-weight: bold;
-    margin-top: -12px;
+    padding-top: -20px;
+    max-width: 1200px;
+    margin: auto;
 }
 .story-content{
     font-size: 1.25em;
-    padding: 15px 20px;
-    color:darkblue;
+    padding: 20px
+    color: white;
     text-align: center;
+
 }
 .contact-content{
     text-align: center;
+    color: white;
 }
 .title-story{
-    margin-top: 1%;
     font-size: 3em;
-    color: slategrey;
-    margin-left: 4%;
-    font-weight: bold;
+    color: red;
+    text-align: center;
 }
 .our-story-sector{
-    background-color: aqua;
-    margin-top: -12px;
+    background-color: darkslategray;
+    max-width: 1200px;
+    margin: auto;
+}
+.story-content{
+    color: white;
 }
