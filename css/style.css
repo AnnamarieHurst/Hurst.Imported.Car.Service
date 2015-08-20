@@ -15,19 +15,7 @@
     max-width: 100%;
     display: inline-block;
     width: 50%;
-}
-.logo-prefix{
-    font-size: 2em;
-    color: red;
-    margin-right: 3%;
-    margin-left: 2%;
-    float: left;
-}
-.logo-suffix{
-    font-size: 1em;
-    color: white;
-    display: block;
-
+    padding: 18px;
 }
 .contact{
     float: right;
@@ -45,7 +33,6 @@
 .main-nav{
     margin-top: -53px;
     margin-left: 62%;
-
 }
 ul.nav{
     list-style-type: none;
@@ -70,14 +57,6 @@ li.nav{
     color: white;
     border-bottom: 2px solid red;
 }
-/*Welcome sign*/
-/*.welcome{
-    max-width: 100%;
-    height: 275px;
-    background: url(../images/photo2orangeBlue.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
-}*/
 .carousel{
     background: #2f4357;
 }
@@ -87,21 +66,13 @@ li.nav{
 .images{
     width: 100%;
 }
-.slogan {
-    max-width: 100%;
-    margin-left: 6%;
-    float: left;
-    font-size: 3em;
-    color: dimgrey;
-}
 /*Services Section*/
 .row{
-    margin: 0 auto;
+    margin: 0;
 }
 .services-sector{
-    background-color: darkslategray;
+    background-color: black;
     padding-top: -20px;
-    background-size: cover;
     max-width: 1200px;
     margin: auto;
 }
@@ -111,81 +82,118 @@ li.nav{
     margin: auto;
 }
 .services-title{
-    text-align: center;
-    padding-top: 8px;
-    font-size: 3em;
-    color: red;
-    max-width: 1200px;
-    margin: auto;
+    margin-left: 40%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: block;
 }
 .car-logos{
-    max-width: 100%;
-    margin-bottom: 1%;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-.titles-one {
-    background: slategrey;
-    font-size: 15px;
-}
-.titles-two{
-    background: slategrey;
-    font-size: 15px;
-}
-.service:nth-child(even) {
-    background: darkslateblue;
-}
+     height: 20px;
+     margin-left: 38%;
+     display: block;
+ }
 .sg-service1{
     display: block;
-    background: gray;
+    background-color: gray;
     color: white;
     text-align: left;
+    padding: 4px;
 }
 .sg-service2{
     display: block;
-    background: darkslategray;
+    background-color: darkslategray;
     color: white;
     text-align: left;
+    padding: 4px;
 }
 .sg-title{
     color: white;
-    padding:2px;
+    padding:4px;
     text-align: center;
     background-color: red;
 }
-.title-contact{
-    font-size: 3em;
-    color: red;
-    text-align: center;
+.service-bullet{
+    margin-top: 65px;
+    margin-bottom: 25px;
+    clear: both;
+    margin-left: 2%;
 }
 .contact-sector {
-    background-color: slategray;
+    background-color: black;
+    color: white;
     font-weight: bold;
     padding-top: -20px;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 .story-content{
     font-size: 1.25em;
     padding: 20px
     color: white;
     text-align: center;
-
+}
+.contact-header{
+    margin-left: 38%;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    display: block;
+}
+.contact-titles{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    display: block;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.contact-info{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    display: block;
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-bottom: 5%;
 }
 .contact-content{
-    text-align: center;
-    color: white;
+    display: inline-block;
+    width: 50%;
 }
-.title-story{
-    font-size: 3em;
-    color: red;
-    text-align: center;
+.get-location{
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+.get-directions{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.story-title{
+    margin-left: 38%;
+    padding-top: 25px;
+    padding-bottom: 45px;
 }
 .our-story-sector{
-    background-color: darkslategray;
+    background-color: black;
     max-width: 1200px;
-    margin: auto;
+    margin: -10px auto;
+}
+
+.content{
+    padding: 14px;
 }
 .story-content{
     color: white;
+    font-size: 15px;
+    -webkit-column-count: 3;
+    text-align: left;
+    margin: 15px;
+}
+.footer-content{
+    margin-left: 22%;
+    margin-top: 4%;
+    height: 250px;
+}
+.footer{
+    background-color: black;
 }
