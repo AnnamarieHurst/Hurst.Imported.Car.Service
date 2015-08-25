@@ -1,3 +1,10 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    padding: 0;
+}
 .site{
     width: 100%;
     margin: 0;
@@ -14,8 +21,8 @@
 .logo{
     max-width: 100%;
     display: inline-block;
-    width: 50%;
-    padding: 18px;
+    width: 38%;
+    padding: 22px;
 }
 .contact{
     float: right;
@@ -71,9 +78,8 @@ li.nav{
     margin: 0;
 }
 .services-sector{
-    background-color: black;
+    background: url('../images/servicesBackground.jpg') no-repeat center center;
     padding-top: -20px;
-    max-width: 1200px;
     margin: auto;
 }
 .services-group{
@@ -83,15 +89,21 @@ li.nav{
 }
 .services-title{
     margin-left: 40%;
-    padding-top: 25px;
+    padding-top: 40px;
     padding-bottom: 30px;
     display: block;
 }
 .car-logos{
-     height: 20px;
-     margin-left: 38%;
+     margin: 10px auto 20px;
      display: block;
  }
+.services-headline{
+    margin-left: 22%;
+    padding-top: 10px;
+    width: 55%;
+    padding-bottom: 10px;
+    display: block;
+}
 .sg-service1{
     display: block;
     background-color: gray;
@@ -108,6 +120,8 @@ li.nav{
 }
 .sg-title{
     color: white;
+    margin-bottom: 0;
+    margin-top: 25px;
     padding:4px;
     text-align: center;
     background-color: red;
@@ -119,11 +133,10 @@ li.nav{
     margin-left: 2%;
 }
 .contact-sector {
-    background-color: black;
+    background: url('../images/locationBackground.jpg') no-repeat center center;
     color: white;
     font-weight: bold;
     padding-top: -20px;
-    max-width: 1200px;
     margin: 0 auto;
 }
 .story-content{
@@ -133,7 +146,7 @@ li.nav{
     text-align: center;
 }
 .contact-header{
-    margin-left: 38%;
+    margin-left: 40%;
     padding-top: 25px;
     padding-bottom: 45px;
     display: block;
@@ -169,7 +182,7 @@ li.nav{
     margin-left: 10%;
 }
 .story-title{
-    margin-left: 38%;
+    margin-left: 40%;
     padding-top: 25px;
     padding-bottom: 45px;
 }
