@@ -14,7 +14,7 @@ html, body{
 /*header*/
 .main-header{
     overflow: hidden;
-    background-color: transparent;
+    background-color: black;
     max-width: 1200px;
     margin: auto;
 }
@@ -189,7 +189,7 @@ li.nav{
 .our-story-sector{
     background-color: black;
     max-width: 1200px;
-    margin: -10px auto;
+    margin: auto;
 }
 
 .content{
