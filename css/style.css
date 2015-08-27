@@ -24,10 +24,13 @@ html, body{
     font-weight: bolder;
 }
 .row{
-     margin: 0;
+     margin: 0 auto;
+    padding: 0;
  }
-/*header*/
 
+
+
+/*header*/
 #header{
     position: fixed;
     z-index: 1;
@@ -45,16 +48,16 @@ html, body{
 }
 .contact{
     float: right;
-    font-size: 0.75em;
+    font-size: 1.75vh;
     color: white;
     margin-right: 2%;
     display: block;
     margin-top: 20px;
 }
-.home{
-    width: 100%;
-    margin: 0 auto;
-}
+
+
+
+
 /*navigation*/
 .main-nav{
     margin-top: -53px;
@@ -63,9 +66,7 @@ html, body{
 ul.nav{
     list-style-type: none;
     position: fixed;
-
 }
-
 li.nav{
     float: left;
     margin: 1%;
@@ -73,15 +74,25 @@ li.nav{
 }
 .btn {
     color: white;
-    font-size: 12px;
+    font-size: 1.85vh;
     font-weight: bolder;
 }
 .btn:hover{
     color: white;
     border-bottom: 2px solid red;
 }
+
+
+
+.home{
+    width: 100%;
+    margin: 0 auto;
+}
 .carousel{
     background: #2f4357;
+    max-width: 1085px;
+    height: 100%;
+    margin: 0 auto;
 }
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
@@ -89,33 +100,29 @@ li.nav{
 .images{
     width: 100%;
 }
+
+
+
 /*Services Section*/
 
 .services-sector{
     background: url('../images/servicesBackground.jpg') no-repeat center center;
-    padding-top: -20px;
-    margin: auto;
+    padding-top: 20px;
+    margin: 0 auto;
 }
 .services-group{
     text-align: center;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 .services-title{
-    margin-left: 40%;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    margin: 8px auto;
     display: block;
+    width: 18%
 }
-.car-logos{
-     margin: 10px auto 20px;
-     display: block;
- }
 .services-headline{
-    margin-left: 22%;
-    padding-top: 10px;
-    width: 55%;
-    padding-bottom: 10px;
+    margin: 6px auto 8px;
+    width: 45%;
     display: block;
 }
 .sg-service1{
@@ -123,60 +130,60 @@ li.nav{
     background-color: gray;
     color: white;
     text-align: left;
-    padding: 4px;
+    padding: 3px;
+    font-size: 1.85vh;
 }
 .sg-service2{
     display: block;
     background-color: darkslategray;
     color: white;
     text-align: left;
-    padding: 4px;
+    padding: 3px;
+    font-size: 1.85vh;
 }
 .sg-title{
     color: white;
-    margin-bottom: 0;
-    margin-top: 25px;
-    padding:4px;
+    margin: 8px auto;
     text-align: center;
     background-color: red;
+    font-size: 2.65vh;
 }
 .service-bullet{
-    margin-top: 65px;
-    margin-bottom: 25px;
+    margin: 3px 150px 72px 10px;
     clear: both;
-    margin-left: 2%;
 }
+#services-bullet{
+    width: 35%;
+}
+
+
+
 .contact-sector {
     background: url('../images/locationBackground.jpg') no-repeat center center;
     color: white;
     font-weight: bold;
-    padding-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 45px;
     margin: 0 auto;
 }
-
-
 .contact-header{
-    margin-left: 40%;
-    padding-top: 25px;
-    padding-bottom: 45px;
+    margin: 10px auto 20px;
     display: block;
+    width: 20%;
 }
 .contact-titles{
-    font-size: 30px;
+    font-size: 4.5vh;
     color: white;
     text-align: left;
     display: block;
-    margin-left: 5%;
-    margin-top: 3%;
+    margin: 0 90px 8px;
 }
 .contact-info{
-    font-size: 20px;
+    font-size: 3vh;
     color: white;
     text-align: left;
     display: block;
-    margin-left: 6%;
-    margin-top: 1%;
-    margin-bottom: 5%;
+    margin: 0 125px 10px;
 }
 .contact-content{
     display: inline-block;
@@ -189,42 +196,44 @@ li.nav{
 }
 .get-directions{
     margin-top: 20%;
-    margin-left: 10%;
+    margin-left: 20%;
+    width: 55%;
 }
+
+
 .story-title{
-    margin-left: 40%;
-    padding-top: 25px;
-    padding-bottom: 45px;
+    margin: 25px auto;
+    width: 25%;
+    display: block;
 }
 .our-story-sector{
     background-color: black;
     max-width: 1200px;
-    margin: auto;
-}
-.story-content{
-    font-size: 1.25em;
-    padding: 35px
-    color: white;
-    text-align: center;
+    margin: 0 auto;
 }
 .story-content{
     color: white;
-    font-size: 15px;
+    font-size: 2vmin;
     -webkit-column-count: 3;
     text-align: left;
+    margin: 5px 25px;
+    font-weight: normal;
 }
+
+
+
 .footer-cars{
     margin: auto;
     display: block;
-    width: 50%;
+    width: 30%;
 }
 .footer{
-    margin: 8px auto;
+    margin: 5px auto;
 }
 .footer-content{
     text-align: center;
-    font-size: 10px;
-    margin-top: 15px;
+    font-size: 1.45vh;
+    margin-top: 13px;
 }
 #footer{
     position: fixed;
