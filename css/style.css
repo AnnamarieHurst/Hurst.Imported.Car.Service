@@ -10,8 +10,8 @@ html, body{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    padding-bottom: 98px;
-    padding-top: 81px;
+    padding-bottom: 7%;
+    padding-top: 8%;
     background: black;
 }
 .container-fluid{
@@ -35,6 +35,7 @@ html, body{
     position: fixed;
     z-index: 1;
     width: 100%;
+    height: 13.5%;
 }
 .main-header{
     overflow: hidden;
@@ -48,7 +49,7 @@ html, body{
 }
 .contact{
     float: right;
-    font-size: 1.75vh;
+    font-size: 1.75vmin;
     color: white;
     margin-right: 2%;
     display: block;
@@ -68,18 +69,21 @@ ul.nav{
     position: fixed;
 }
 li.nav{
-    float: left;
+    float: right;
     margin: 1%;
 
 }
 .btn {
     color: white;
-    font-size: 1.85vh;
+    font-size: 1.85vmin;
     font-weight: bolder;
 }
 .btn:hover{
     color: white;
     border-bottom: 2px solid red;
+}
+.hamburger-menu{
+    display: none;
 }
 
 
@@ -107,7 +111,7 @@ li.nav{
 
 .services-sector{
     background: url('../images/servicesBackground.jpg') no-repeat center center;
-    padding-top: 20px;
+    padding-top: 1%;
     margin: 0 auto;
 }
 .services-group{
@@ -116,12 +120,12 @@ li.nav{
     margin: 0 auto;
 }
 .services-title{
-    margin: 8px auto;
+    margin: 0 auto;
     display: block;
-    width: 18%
+    width: 20%
 }
 .services-headline{
-    margin: 6px auto 8px;
+    margin: 1% auto;
     width: 45%;
     display: block;
 }
@@ -130,23 +134,23 @@ li.nav{
     background-color: gray;
     color: white;
     text-align: left;
-    padding: 3px;
-    font-size: 1.85vh;
+    padding: 1%;
+    font-size: 1.85vmin;
 }
 .sg-service2{
     display: block;
     background-color: darkslategray;
     color: white;
     text-align: left;
-    padding: 3px;
-    font-size: 1.85vh;
+    padding: 1%;
+    font-size: 1.85vmin;
 }
 .sg-title{
     color: white;
-    margin: 8px auto;
+    margin: 4% auto 0;
     text-align: center;
     background-color: red;
-    font-size: 2.65vh;
+    font-size: 2.65vmin;
 }
 .service-bullet{
     margin: 3px 150px 72px 10px;
@@ -172,14 +176,14 @@ li.nav{
     width: 20%;
 }
 .contact-titles{
-    font-size: 4.5vh;
+    font-size: 4.5vmin;
     color: white;
     text-align: left;
     display: block;
     margin: 0 90px 8px;
 }
 .contact-info{
-    font-size: 3vh;
+    font-size: 3vmin;
     color: white;
     text-align: left;
     display: block;
@@ -232,8 +236,8 @@ li.nav{
 }
 .footer-content{
     text-align: center;
-    font-size: 1.45vh;
-    margin-top: 13px;
+    font-size: 1.45vmin;
+    margin-top: 15px;
 }
 #footer{
     position: fixed;
@@ -242,4 +246,87 @@ li.nav{
     left: 0;
     width: 100%;
     background-color: black;
+}
+
+
+
+@media screen and (max-width: 1051px){
+    #header{
+        position: relative;
+    }
+    .contact{
+        display: block;
+        font-size: 1vmin;
+        float: none;
+        margin: 0;
+        text-align: center;
+        padding-top: 2%;
+    }
+    .hamburger-menu{
+        display: block;
+        width: 100%;
+        color: white;
+    }
+    .glyphicon{
+        margin: 4%;
+        position: fixed;
+    }
+    .logo{
+        display: block;
+        margin: 4% auto 0;
+        padding: 0;
+    }
+    .main-nav ul{
+        display: none;
+        padding: 0;
+        margin-top: 10%;
+    }
+    .main-nav ul li{
+        display: block;
+        text-align: center;
+        float: none;
+    }
+    .btn{
+        color: grey;
+    }
+    .main-nav{
+        width: 100%;
+        margin-left: 0;
+    }
+    #home, #services, #contact, #story{
+         padding-top: 14%;
+        padding-bottom: 13%;
+     }
+
+
+
+    .contact-titles{
+          font-size: 4vmin;
+          margin: 8% 15% 0;
+      }
+    .contact-info{
+        font-size: 2.8vmin;
+        margin: 10% 20% 0;
+    }
+
+
+
+    /*.services-title{
+        margin: 0 auto ;
+    }
+    .services-group{
+        margin: 0 auto;
+    }
+    .sg-title{
+        font-size: 1vmin;
+    }
+    .sg-service1{
+        font-size: 1vmin;
+    }
+    .sg-service2{
+        font-size: 1vmin;
+    }*/
+
+
+
 }
