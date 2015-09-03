@@ -51,7 +51,7 @@ html, body{
 .logo{
     display: inline-block;
     width: 30%;
-    padding: 22px;
+    padding: 22px 22px 0;
 }
 .contact{
     float: right;
@@ -59,7 +59,7 @@ html, body{
     color: white;
     margin-right: 2%;
     display: block;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 
@@ -67,17 +67,19 @@ html, body{
 
 /*navigation*/
 .main-nav{
-    margin-top: -53px;
-    margin-left: 62%;
+    width: 55%;
+    float: right;
 }
 ul.nav{
     list-style-type: none;
     position: fixed;
 }
+.ul{
+    margin-left: 20%;
+}
 li.nav{
     float: left;
     margin: 1%;
-
 }
 .btn {
     color: white;
@@ -90,6 +92,30 @@ li.nav{
 }
 .hamburger-menu{
     display: none;
+}
+
+
+
+@media screen and (max-width: 908px){
+    .ul{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 825px){
+    .main-nav{
+        width: 40%;
+    }
+    .btn{
+        font-size: 1.65vmin;
+        padding: 0 0 0 1px;
+    }
+    li.nav{
+        margin: 1%;
+    }
+
 }
 
 
@@ -341,6 +367,7 @@ li.nav{
         height: 100%;
         padding-bottom: 0;
         padding-top: 0;
+        z-index: 0;
     }
     #home{
         padding-bottom: 5%;
