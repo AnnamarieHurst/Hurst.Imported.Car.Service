@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25fa2aab-f94f-4d54-8e83-56b89d8b2393" name="Default" comment="Added background images and corrected margins on container-fluid. Need to fix the header and footer and add extra effects">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/HurstShop2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo2orangeBlue2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo3darkBlue2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo4red612.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/photo5redTriumph2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\CopyRight.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\HurstShop05092007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\photo1purpleYellow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\photo2orangeBlue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\photo3darkBlue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\photo4red61.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\photo5redTriumph.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\photo6black6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\AcuraLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\AudiLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\HondaLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\HurstLogoWithCarBlackSMALL.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\HyundaiLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\InfinitiLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\IsuzuLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\LexusLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\MazdaLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\MitsubishiLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\NissanLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\SubaruLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\ToyotaLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\VolkswagenLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\serviceAcura_files\VolvoLogo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\welcomeMessage.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ahurst\WebstormProjects\HurstImported\images\welcomeMessage2.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HurstImported.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +70,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66721314">
-              <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.8344262">
+              <caret line="449" column="5" selection-start-line="449" selection-start-column="5" selection-end-line="449" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -48,8 +80,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.423077">
-              <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+            <state vertical-scroll-proportion="-12.115385">
+              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -75,6 +107,8 @@
         <option value="$PROJECT_DIR$/Hurst Imported Car Service.html" />
         <option value="$PROJECT_DIR$/secondIndex.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -131,34 +165,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HurstImported" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HurstImported" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HurstImported" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HurstImported" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HurstImported" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,21 +306,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30408472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21331316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5438729" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.45612708" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -369,30 +375,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -708,31 +690,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/CopyRight.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/welcomeMessage.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/photo3darkBlue.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/photo4red61.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/photo6black6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -741,18 +698,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.423077">
-          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6480144">
+          <caret line="4" column="113463" selection-start-line="4" selection-start-column="113463" selection-end-line="4" selection-end-column="113463" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/photo2orangeBlue2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/photo5redTriumph2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.115385">
+          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/carlogos.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66721314">
-          <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.8344262">
+          <caret line="449" column="5" selection-start-line="449" selection-start-column="5" selection-end-line="449" selection-end-column="5" />
           <folding />
         </state>
       </provider>

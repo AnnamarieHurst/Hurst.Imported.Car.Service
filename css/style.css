@@ -155,41 +155,33 @@ li.nav{
 .carousel{
     overflow: hidden;
 }
-.text{
-    float: left;
-    margin-top: 40%;
-    margin-left: 25%;
-    font-size: 2.5vmin;
-    font-weight: 900;
-    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
-    color: white;
-}
+
 .carousel .one{
     height: 100%;
-    background: url(../images/HurstShop05092007.jpg) no-repeat center center;
+    background: url(../images/HurstShop2.png) no-repeat center center;
     background-size: cover;
 }
 .carousel .two{
     height: 100%;
-    background: url(../images/photo2orangeBlue.jpg) no-repeat center center;
+    background: url(../images/photo2orangeBlue2.png) no-repeat center center;
     background-size: cover;
 }
 .carousel .three{
     height: 100%;
-    background: url(../images/photo5redTriumph.jpg) no-repeat center center;
+    background: url(../images/photo5redTriumph2.png) no-repeat center center;
     background-size: cover;
 }
 .carousel .four{
     height: 100%;
-    background: url(../images/photo3darkBlue.jpg) no-repeat center center;
+    background: url(../images/photo3darkBlue2.png) no-repeat center center;
     background-size: cover;
 }
 .carousel .five{
     height: 100%;
-    background: url(../images/photo4red61.jpg) no-repeat center center;
+    background: url(../images/photo4red612.png) no-repeat center center;
     background-size: cover;
 }
-.images{
+.image{
     display: none;
 }
 
@@ -392,7 +384,7 @@ li.nav{
         z-index: 0;
     }
     #home{
-        padding-bottom: 5%;
+        padding-bottom: 0;
         position: relative;
         height: 100%;
         padding-top: 0;
@@ -438,25 +430,20 @@ li.nav{
     }
 
 
-    .carousel .slide{
-        height: 450px;
+    .carousel{
+        display: none;
     }
     .home{
         margin: 0 auto;
         display:block;
     }
-    .carousel .item {
-        height: 100%;
-        position: relative;
-        width:100%;
-        margin: auto;
-    }
-    .images{
+    .image{
         padding:0;
-        margin:0;
-        display: inline-block;
+        margin:0 auto;
+        top: 0;
+        left: 0;
+        display: block;
         width: 100%;
-        overflow: hidden;
     }
     .carousel .one{
         display: none;
