@@ -125,6 +125,26 @@ li.nav{
     margin: 0 auto;
     display:block;
 }
+.welcome-message{
+    position: absolute;
+    width: 40vw;
+    z-index: 1;
+    margin-top: 15%;
+    margin-left: 5%;
+    display: block;
+}
+.no-domestic{
+ display: none;
+}
+
+@media screen and (max-width: 890px){
+    .welcome-message{
+        margin-top:18%;
+    }
+}
+
+
+
 .carousel .item {
     position: fixed;
     top:0;
@@ -161,12 +181,12 @@ li.nav{
 }
 .carousel .four{
     height: 100%;
-    background: url(../images/photo6black6.jpg) no-repeat center center;
+    background: url(../images/photo3darkBlue.jpg) no-repeat center center;
     background-size: cover;
 }
 .carousel .five{
     height: 100%;
-    background: url(../images/photo3darkBlue.jpg) no-repeat center center;
+    background: url(../images/photo4red61.jpg) no-repeat center center;
     background-size: cover;
 }
 .images{
@@ -296,8 +316,10 @@ li.nav{
 
 .footer-cars{
     margin: auto;
-    display: block;
+    display: inline;
     width: 30%;
+    text-align: center;
+    margin-left: 35%;
 }
 .footer{
     margin: 5px auto;
@@ -309,7 +331,7 @@ li.nav{
 }
 #footer{
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -362,7 +384,7 @@ li.nav{
         width: 100%;
         margin-left: 0;
     }
-    #home, #services, #contact, #story{
+    #services, #contact, #story{
         position: relative;
         height: 100%;
         padding-bottom: 0;
@@ -371,6 +393,10 @@ li.nav{
     }
     #home{
         padding-bottom: 5%;
+        position: relative;
+        height: 100%;
+        padding-top: 0;
+        z-index: 1;
     }
 
 
@@ -443,5 +469,20 @@ li.nav{
     }
     .carousel .four {
         display: none;
+    }
+    .welcome-message{
+        position: absolute;
+        width: 42%;
+        z-index: 1;
+        margin-top: 32%;
+        margin-left: 55%;
+    }
+    .no-domestic{
+        position: absolute;
+        width: 14%;
+        z-index: 2;
+        margin-top: 40%;
+        margin-left: 83%;
+        display: inline-block;
     }
 }
